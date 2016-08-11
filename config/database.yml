@@ -49,6 +49,6 @@ test:
 #
 production:
   <<: *default
-  database: solo_production
-  username: solo
+  database: wow_production
+  username: wow
   password: <%= ENV['SOLO_DATABASE_PASSWORD'] %>
