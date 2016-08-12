@@ -1,11 +1,75 @@
-// Place all the styles related to the prvi controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
-body {
-	background: lightblue;
+#message {
+		font-family: 'Open Sans', sans-serif;
+		font-size: 22px;
+		color: #fff;
+		padding: 30px;
+		margin-top: 30px;
 }
 
-h1{
-	color:red;
+#all > ul {
+		list-style: none;
+		float: center;
+		width: 200px;
+		padding: 0 10px 0 0;
 }
-p{color:blue;}
+
+#all a {
+		text-decoration: none;
+		display: block;
+		padding: 18px;
+		background: #1d252c;
+		border-radius: 3px;
+		color: #6b7278;
+		text-align: center;
+		margin: 0 0 3px 0;
+		font-family: 'Open Sans', sans-serif;
+		font-weight: bold;
+		font-size: 18px;
+		font-variant: small-caps;
+		font-weight: bold;
+		-webkit-transition: all 0.2s ease;
+		-moz-transition: all 0.2s ease;
+		-o-transition: all 0.2s ease;
+}
+
+#all:hover a {
+		opacity: 1.0;
+}
+
+#all:hover ul:hover a {
+		opacity: 0.5;
+}
+
+#all:hover ul:hover a:hover {
+		opacity: 1;
+}
+
+#all:active a {
+		opacity: 1.0;
+}
+
+#all:active ul:active a {
+		opacity: 0.5;
+}
+
+#all:active ul:active a:active {
+		opacity: 0.9;
+}
+
+#HjelmPatrik {
+		font-family: 'Open Sans', sans-serif;
+		font-size: 12px;
+		color: #fff;
+		margin-top: 200px;
+		gutter: 10px;
+		text-decoration: none;
+		opacity: 0.7;
+}
+
+#HjelmPatrik:hover {
+		opacity: 0.9;
+}
+
+body {
+		background-color: #313841;
+}
